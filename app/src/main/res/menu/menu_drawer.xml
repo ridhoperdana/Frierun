@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tombolTrack"
+            android:title="Lari" />
+        <item
+            android:id="@+id/tombolDaftarTemanOnline"
+            android:title="Teman Online" />
+        <item
+            android:id="@+id/tombolDaftarTeman"
+            android:title="Teman" />
+        <!--<item-->
+            <!--android:id="@+id/tombolBeranda"-->
+            <!--android:title="Beranda" />-->
+        <item
+            android:id="@+id/tombolGymTerdekat"
+            android:title="Gym Terdekat" />
+        <!--<item-->
+            <!--android:id="@+id/tombolRiwayat"-->
+            <!--android:title="Riwayat Tempat" />-->
+
+    </group>
+
+    <item android:title="Akun">
+        <menu>
+            <item
+                android:id="@+id/tombollogout"
+                android:title="Log out" />
+        </menu>
+    </item>
+</menu>

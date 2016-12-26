@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Normal"
+        android:id="@+id/petaNormal"/>
+    <item android:title="Hybrid"
+        android:id="@+id/petaHybrid"/>
+    <item android:title="Terrain"
+        android:id="@+id/petaTerrain"/>
+    <item android:title="Satellite"
+        android:id="@+id/petaSatellite"/>
+</menu>
